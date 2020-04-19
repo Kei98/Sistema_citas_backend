@@ -55,3 +55,10 @@ username varchar(45) PRIMARY KEY NOT NULL,
 password_ varchar(500) NOT NULL
 );
 
+USE Vida_Online;
+INSERT INTO Paciente VALUES (1, 'Francisco', 'Alajuela');
+INSERT INTO Paciente VALUES (2, 'César', 'San José');
+INSERT INTO Paciente VALUES (3, 'Keisy', 'Cartago');
+INSERT INTO Paciente VALUES (4, 'Esteban', 'Alajuela');
+INSERT INTO Paciente VALUES (5, 'María', 'Puntarenas');
+INSERT INTO Usuario VALUES ('admin', '88hzywAunoa2yqIKpKm/Ag==');
